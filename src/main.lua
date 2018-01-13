@@ -16,6 +16,12 @@ math1 = io.read()
 print ("and what")
 math2 = io.read()
 print (math1 + math2)
+elseif cmd == "subtract" then 
+print ("what to subtract")
+math1 = io.read()
+print ("and what")
+math2 = io.read()
+print (math1 - math2)
 end
 end
 end
