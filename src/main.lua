@@ -22,6 +22,18 @@ math1 = io.read()
 print ("and what")
 math2 = io.read()
 print (math1 - math2)
+elseif cmd == "multiply" then 
+print ("what to multiply")
+math1 = io.read()
+print ("and what")
+math2 = io.read()
+print (math1 * math2)
+elseif cmd == "divide" then
+print ("what to divide")
+math1 = io.read()
+print ("and what")
+math2 = io.read()
+print (math1 / math2)
 end
 end
 end
